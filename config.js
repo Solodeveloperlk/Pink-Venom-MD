@@ -10,7 +10,7 @@ module.exports = {
     SESSION_ID: process.env.SESSION_ID === undefined ? 'PINKVENOM-MD;OJ9XTTyZ#2k_7TWFkQDshqDF7VbXWTobIJEIuc0QpNI-cAo0yuvg' : process.env.SESSION_ID, //ADD YOUR SESSION ID
     GITHUB_USER_NAME: process.env.GITHUB_USER_NAME === undefined ? 'Solodeveloperlk' : process.env.GITHUB_USER_NAME, //ADD YOUR GITHUB USERNAME
     GITHUB_AUTH_TOKEN: process.env.GITHUB_AUTH_TOKEN === undefined ? 'gHSjwIZrMzzO8Wz07vAdaLhxvBPGQr4BU2Fy' : process.env.GITHUB_AUTH_TOKEN, //ADD YOUR GITHUB AUTH TOKEN WITHOUT gph_ ,  example - G5OxxdvEbiBPWxm4A0xypQGlyCr4FS267ifz
-    WORK_TYPE: process.env.WORK_TYPE === undefined ? 'ONLYME' : process.env.WORK_TYPE, //ONLYME / ONLYGROUP OR PUBLIC
+    WORK_TYPE: process.env.WORK_TYPE === undefined ? 'PUBLIC' : process.env.WORK_TYPE, //ONLYME / ONLYGROUP OR PUBLIC
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ? 'FALSE' : process.env.AUTO_READ_STATUS, //TRUE OR FALSE
     PRESENCE: process.env.PRESENCE === undefined ? `available` : process.env.PRESENCE, //AVAILABLE, COMPOSING, RECORDING OR UNAVAILABLE
     ALIVE: process.env.ALIVE === undefined ? `default` : process.env.ALIVE, //YOUR ALIVE MESSAGE OR SET IT TO defeault
